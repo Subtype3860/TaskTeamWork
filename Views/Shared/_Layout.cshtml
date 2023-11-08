@@ -6,7 +6,8 @@
     <title>@ViewData["Title"] - TaskTeamWork</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/TaskTeamWork.styles.css" asp-append-version="true" />
+    @* <link rel="stylesheet" href="~/TaskTeamWork.styles.css" asp-append-version="true" /> *@
+    <link rel="stylesheet" href="~/css/mani-page.css" asp-append-version="true" />
 </head>
 <body>
     <header>
@@ -33,6 +34,9 @@
     </header>
     <div class="container">
         <main role="main" class="pb-3">
+            <div class="main">
+                <partial name="Register" />
+            </div>
             @RenderBody()
         </main>
     </div>

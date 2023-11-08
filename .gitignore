@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/.idea/.idea.TaskTeamWork.dir/.idea/encodings.xml
+/.idea/.idea.TaskTeamWork.dir/.idea/workspace.xml
+.idea/
