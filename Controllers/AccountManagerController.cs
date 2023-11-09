@@ -51,7 +51,7 @@ public class AccountManagerController : Controller
                 ModelState.AddModelError("", "Неправильный логин и (или) пароль");
             }
         }
-        return View("Views/Home/Index.cshtml");
+        return RedirectToAction("Index", "Home");
     }
 
     [Route("Logout")]

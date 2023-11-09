@@ -9,7 +9,6 @@ namespace TaskTeamWork.Controllers;
 public class RegisterController : Controller
 {
     private IMapper _mapper;
-
     private readonly UserManager<User> _userManager;
     private readonly SignInManager<User> _signInManager;
     public RegisterController(IMapper mapper, UserManager<User> userManager, SignInManager<User> signInManager)
