@@ -8,6 +8,7 @@ public class User : IdentityUser
     public string? LastName { get; set; }
     public string? MiddleName { get; set; }
     public DateTime BirthDate { get; set; }
+    /*
     public string Image { get; set; }
 
     public string Status { get; set; }
@@ -25,4 +26,5 @@ public class User : IdentityUser
         Status = "Ура! Я в соцсети!";
         About = "Информация обо мне.";
     }
+    */
 }

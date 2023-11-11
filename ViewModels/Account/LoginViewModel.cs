@@ -18,5 +18,5 @@ public class LoginViewModel
     [Display(Name = "Запомнить?")]
     public bool RememberMe { get; set; }
 
-    public string ReturnUrl { get; set; }
+    public string? ReturnUrl { get; set; }
 }

@@ -23,7 +23,7 @@ public class RegisterController : Controller
     [HttpGet]
     public IActionResult Register()
     {
-        return View("Register");
+        return View("Home/Register");
     }
     [Route("Register")]
     [HttpPost]
@@ -49,6 +49,7 @@ public class RegisterController : Controller
         }
         return View("RegisterPart2", model);
     }
+   
     [HttpGet]
     public IActionResult RegisterPart2(RegisterViewModel model)
     {
